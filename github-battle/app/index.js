@@ -1,6 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
+import Popular from './components/Popular'
+import Battle from './components/Battle'
 
 // Component (3 Aspects of Component)
 // State
@@ -10,8 +12,8 @@ import './index.css'
 class App extends React.Component{
     render(){
         return (
-        <div>
-            Hello World!
+        <div className = 'container'>
+            <Battle/>
         </div>
         )
     }//what you return from render is the description of what the UI is going to look like
